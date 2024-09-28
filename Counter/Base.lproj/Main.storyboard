@@ -18,7 +18,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l22-LF-raT">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l22-LF-raT" userLabel="plus">
                                 <rect key="frame" x="63" y="389" width="129" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemRedColor"/>
@@ -28,10 +28,10 @@
                                     <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle0"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="add:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BPg-XP-09d"/>
+                                    <action selector="add:" destination="BYZ-38-t0r" eventType="touchUpInside" id="a97-S4-gY8"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1QM-LX-Dxe">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1QM-LX-Dxe" userLabel="minus">
                                 <rect key="frame" x="200" y="389" width="129" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" name="AccentColor"/>
@@ -41,10 +41,10 @@
                                     <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle0"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="subtraction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PnK-7i-a75"/>
+                                    <action selector="subtraction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="G1k-tq-rE1"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.55000000000000004" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aEW-7l-yPS">
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.55000000000000004" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aEW-7l-yPS" userLabel="number">
                                 <rect key="frame" x="63" y="210" width="266" height="125"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="58"/>
@@ -60,7 +60,7 @@
                                     <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle1"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="changeToZero:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GM9-yf-pCZ"/>
+                                    <action selector="restart:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Wob-Dk-z0J"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YFt-qj-gF9">
@@ -82,11 +82,11 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
-                        <outlet property="history" destination="EDm-0k-lhj" id="1sc-MN-MRt"/>
-                        <outlet property="minus" destination="1QM-LX-Dxe" id="6X3-Ua-Cds"/>
-                        <outlet property="number" destination="aEW-7l-yPS" id="ZTf-GL-f6Z"/>
-                        <outlet property="plus" destination="l22-LF-raT" id="nHc-hK-phK"/>
-                        <outlet property="restart" destination="POm-Gn-pg4" id="Jih-1y-ULp"/>
+                        <outlet property="historyTextView" destination="EDm-0k-lhj" id="7Tf-Ui-k1R"/>
+                        <outlet property="minusButton" destination="1QM-LX-Dxe" id="LBE-qY-veg"/>
+                        <outlet property="numberLabel" destination="aEW-7l-yPS" id="rms-I0-0IS"/>
+                        <outlet property="plusButton" destination="l22-LF-raT" id="q22-KC-DRj"/>
+                        <outlet property="restartButton" destination="POm-Gn-pg4" id="SXD-4F-gxM"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
