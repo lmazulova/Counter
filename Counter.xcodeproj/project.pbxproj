@@ -16,6 +16,7 @@
 		CE7497212C93794B005D3D32 /* CounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7497202C93794B005D3D32 /* CounterTests.swift */; };
 		CE74972B2C93794B005D3D32 /* CounterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE74972A2C93794B005D3D32 /* CounterUITests.swift */; };
 		CE74972D2C93794B005D3D32 /* CounterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE74972C2C93794B005D3D32 /* CounterUITestsLaunchTests.swift */; };
+		CEEB20FB2CC1AA8B00C6D938 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEB20FA2CC1AA8B00C6D938 /* WelcomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		CE7497262C93794B005D3D32 /* CounterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CounterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE74972A2C93794B005D3D32 /* CounterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterUITests.swift; sourceTree = "<group>"; };
 		CE74972C2C93794B005D3D32 /* CounterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CEEB20FA2CC1AA8B00C6D938 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				CE7497122C93794B005D3D32 /* Assets.xcassets */,
 				CE7497142C93794B005D3D32 /* LaunchScreen.storyboard */,
 				CE7497172C93794B005D3D32 /* Info.plist */,
+				CEEB20FA2CC1AA8B00C6D938 /* WelcomeViewController.swift */,
 			);
 			path = Counter;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE74970E2C937949005D3D32 /* ViewController.swift in Sources */,
+				CEEB20FB2CC1AA8B00C6D938 /* WelcomeViewController.swift in Sources */,
 				CE74970A2C937949005D3D32 /* AppDelegate.swift in Sources */,
 				CE74970C2C937949005D3D32 /* SceneDelegate.swift in Sources */,
 			);
